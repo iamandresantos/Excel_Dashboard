@@ -19,6 +19,7 @@ Excel_Dashboard/
 ├── dashboard           # Processed data into dashboard
 ├── src/                # VBA modules exported as .bas files
 ├── docs/               # Notes and documentation
+├── Excel_Skills.md     # Excel Used Skills Guide
 └── README.md
 ```
 
@@ -38,18 +39,18 @@ cd Excel_Dashboard
 
 | Area        | Topics                                        |
 |-------------|-----------------------------------------------|
-| Functions   | XLOOKUP, INDEX/MATCH, SUMIFS, dynamic arrays  |
-| Power Query | Data import, transformations, merging sources |
-| VBA         | Macros, automation, UserForms                 |
+| Functions   | XLOOKUP, LET, SUMIFS, Nested Functions  |
+| Power Query | Data import, cleaning data, transformations, adding columns |
+| Charts      | Clustered, Combo
+| VBA         |                 |
 
 ---
 
 ## Data Sources
 - `data/Packages_database.csv` — Shipments database
-- *(more sources to be added)*
+- `data/brokers_database.xlsx` — Brokers database
+- `data/country_and_continent_codes.xlsx` — Countries & Continents ISO codes database
 
 ---
 
 ## Notes
-- Never edit files in `raw/` directly
-- Export VBA modules as `.bas` files into `src/` before committing

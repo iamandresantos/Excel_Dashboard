@@ -27,9 +27,9 @@
 | File | Sheet/Query Name | Description |
 |------|-----------------|-------------|
 | Excel_Dashboard | shipment_database | Imported data from Packages_database.csv  |
-| Excel_Dashboard | Shipments_database | Changed the columns types (using local types when necessary) and sort rows |
-| Excel_Dashboard | Shipments_database | Added column with M code to have: "package_priority" - priority correlated to the package value |
-| Excel_Dashboard | Shipments_database | Added column with M code: "hold_import_responsibility" - to understand who is responsible for the package not being delivered |
+| Excel_Dashboard | shipments_database | Changed the columns types (using local types when necessary) and sort rows |
+| Excel_Dashboard | shipments_database | Added column with M code to have: "package_priority" - priority correlated to the package value |
+| Excel_Dashboard | shipments_database | Added column with M code: "hold_import_responsibility" - to understand who is responsible for the package not being delivered |
 
 ---
 ### 🔍 PivotTables:
@@ -42,7 +42,7 @@
 ---
 ## Other Skills Used
 - Conditional Formatting
-- Dynamic Charts (clustered bar + average line)
+- Dynamic Charts (clustered bar, combo chart: clustered bar + average line)
 - Simple functions (IFS, SUMIF)
 
 
