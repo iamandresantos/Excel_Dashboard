@@ -7,7 +7,7 @@
 
 ## Skills Index
 
-### 🔗 Nested Functions
+### Nested Functions
 | File | Sheet | Cell(s) | Description |
 |------|-------|---------|-------------|
 | Excel_Dashboard| data_Exp_Imp_per_country | A3 | UNIQUE function nested with VSTACK -> to retrieve the unique countries in the 2 different columns ({exporter_country, importer_country}) from the Packages_Database table |
@@ -15,7 +15,7 @@
 
 ---
 
-### 🔍 XLOOKUP
+### XLOOKUP
 | File | Sheet | Cell(s) | Description |
 |------|-------|---------|-------------|
 | Excel_Dashboard | data_brokers | C5:C44 | Lookup broker name by ID from another workbook: brokers_database.xlsx |
@@ -23,7 +23,7 @@
 
 ---
 
-### 👨‍💻 Power Query
+### Power Query
 | File | Sheet/Query Name | Description |
 |------|-----------------|-------------|
 | Excel_Dashboard | shipment_database | Imported data from Packages_database.csv  |
@@ -32,12 +32,19 @@
 | Excel_Dashboard | shipments_database | Added column with M code: "hold_import_responsibility" - to understand who is responsible for the package not being delivered |
 
 ---
-### 🔍 PivotTables:
+###  PivotTables:
 
 | File | Sheet | Cell(s) | Description |
 |------|-------|---------|-------------|
 | Excel_Dashboard | data_pivot_tables | A2:K10 | Pivot table using data from shipment_database sheet to report: in a monthly data frame, the total and % of shipments by import_query [{Delayed, Delivered, Missing Docs, Missing Info, Processing, Waiting Payment}] |
 | Excel_Dashboard | data_pivot_tables | A14:D22 | Pivot table using data from shipment_database sheet to report: the responsibility of the packages not delivered yet by the value category [{Low value, Medium value, High value, Premium value}] in %. The responsibility is from Company if the package is [{Delayed, Processing}] or from Customer if the package is [{Missing Docs, Missing Info, Waiting Payment}]
+
+---
+###  VBA Code:
+
+| File | Sheet | Cell(s) | Description |
+|------|-------|---------|-------------|
+| Excel_Dashboard | Dashboard | Display Delayed Shipments | VBA Macro that filters rows, in shipment_database, for shipments with status "Delayed" and retrieves them in a list on a new sheet called Delayed Shipments |
 
 ---
 ## Other Skills Used
