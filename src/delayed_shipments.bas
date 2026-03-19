@@ -1,6 +1,6 @@
 Attribute VB_Name = "delayed_shipments"
 ' Delayed Shipments VBA Code
-' Author: André dos Santos
+' Author: Andre dos Santos
 ' ============================================================
 Sub ExportDelayedToNewSheet()
     Dim ws As Worksheet, newWs As Worksheet
@@ -54,10 +54,11 @@ Sub ExportDelayedToNewSheet()
     Application.EnableEvents = True
     ' ----------------------------------------------------
 
-    Sheets("Delayed Dashboard").Activate
+    Sheets("Delayed Shipments").Activate
 
     Dim delayedCount As Long
     delayedCount = newWs.Cells(newWs.Rows.Count, "A").End(xlUp).Row - 1
-    MsgBox delayedCount & " delayed shipment(s) exported!", vbInformation, "Delayed Shipments"
+    MsgBox delayedCount & " delayed shipment(s)!", vbInformation, "Delayed Shipments"
 
 End Sub
+

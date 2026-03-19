@@ -32,7 +32,7 @@
 | Excel_Dashboard | shipments_database | Added column with M code: "hold_import_responsibility" - to understand who is responsible for the package not being delivered |
 
 ---
-###  PivotTables:
+###  PivotTables
 
 | File | Sheet | Cell(s) | Description |
 |------|-------|---------|-------------|
@@ -40,11 +40,12 @@
 | Excel_Dashboard | data_pivot_tables | A14:D22 | Pivot table using data from shipment_database sheet to report: the responsibility of the packages not delivered yet by the value category [{Low value, Medium value, High value, Premium value}] in %. The responsibility is from Company if the package is [{Delayed, Processing}] or from Customer if the package is [{Missing Docs, Missing Info, Waiting Payment}]
 
 ---
-###  VBA Code:
+###  VBA Code
 
 | File | Sheet | Cell(s) | Description |
 |------|-------|---------|-------------|
 | Excel_Dashboard | Dashboard | Display Delayed Shipments | VBA Macro that filters rows, in shipment_database, for shipments with status "Delayed" and retrieves them in a list on a new sheet called Delayed Shipments |
+| Excel_Dashboard | Dashboard | Search by Name | VBA macro that lets users search shipments by importer or exporter name and returns the matching records as a list on a new sheet.
 
 ---
 ## Other Skills Used

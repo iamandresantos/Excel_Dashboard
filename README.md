@@ -42,7 +42,7 @@ cd Excel_Dashboard
 | Functions   | XLOOKUP, LET, SUMIFS, Nested Functions  |
 | Power Query | Data import, cleaning data, transformations, adding columns |
 | Charts      | Clustered, Combo
-| VBA         |                 |
+| VBA         | Filter shipments by status and return results on a new sheet; search shipments by importer or exporter name and return matching records as a formatted list with alternating row colors |
 
 ---
 
